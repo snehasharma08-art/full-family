@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  background: burlywood;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  background: #333;
+  color: white;
+  padding: 15px;
+}
+
+.section {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+input,
+select {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.family-card {
+  background: white;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.member {
+  background: #e9f3ff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+}

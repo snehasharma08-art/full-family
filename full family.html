@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Family Manager App</title>
+    <link rel="stylesheet" href="full family.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Family Manager</h1>
+
+      <div class="section">
+        <h2>Add Family</h2>
+        <input type="text" id="familyName" placeholder="Enter Family Name" />
+        <button onclick="addFamily()">Add Family</button>
+      </div>
+
+      <div class="section">
+        <h2>Add Member</h2>
+
+        <input type="text" id="name" placeholder="Name" />
+        <input type="number" id="age" placeholder="Age" />
+
+        <select id="familySelect"></select>
+
+        <input type="text" id="father" placeholder="Father Name" />
+        <input type="text" id="mother" placeholder="Mother Name" />
+        <input type="text" id="spouse" placeholder="Spouse Name" />
+        <input type="text" id="address" placeholder="Address" />
+
+        <button onclick="addMember()">Add Member</button>
+      </div>
+
+      <div id="output"></div>
+    </div>
+
+    <script src="full family.js"></script>
+  </body>
+</html>
